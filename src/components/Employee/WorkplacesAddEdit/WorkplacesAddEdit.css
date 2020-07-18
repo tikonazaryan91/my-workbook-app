@@ -1,0 +1,11 @@
+.form-error {
+  border: 1px solid #fcc2c3;
+  background-color: #fce4e4;
+  width: 92%;
+  margin: 0px auto;
+  padding: 6px 10px;
+  color: #cc0033;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}

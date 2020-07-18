@@ -1,0 +1,89 @@
+.main-employee {
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+  padding: 10px;
+  box-sizing: border-box;
+  height: auto;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.main-employee-content {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.main-employee-content span {
+  width: 100%;
+  border: 1px solid #44474b;
+  padding: 10px;
+}
+
+.main-employee-header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.main-employee-header span {
+  width: 100%;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #44474b;
+  font-weight: bold;
+}
+.main-workplaces {
+  margin: 10px auto;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+  padding: 10px;
+  box-sizing: border-box;
+  height: auto;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.main-workplaces h2 {
+  padding: 0;
+}
+
+.main-workplaces-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-workplaces-history {
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.main-workplaces-data-form {
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.main-workplaces-history-content {
+  display: flex;
+  min-height: 350px;
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.main-workplaces-history-content-data {
+  width: 100%;
+}

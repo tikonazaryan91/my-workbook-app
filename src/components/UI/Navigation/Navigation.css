@@ -1,0 +1,79 @@
+.main-toolbar {
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #44474b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+
+.main-toolbar nav {
+    height: 100%;
+}
+
+.main-toolbar .main-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    color: white;
+}
+
+.main-navigation-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;
+}
+
+.main-navigation-items-separator {
+    color: white;
+}
+
+@media (min-width: 500px) {
+    .main-navigation-items {
+        flex-flow: row;
+    }
+}
+
+.main-logo a {
+    width: 90%;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.main-logo a:link,
+.main-logo a:visited {
+    text-decoration: none;
+    color: #eee;
+}
+
+.main-nav-logout-btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.main-nav-logout-btn:hover,
+.main-nav-logout-btn:active {
+    height: 100%;
+    border-bottom: 4px solid black;
+    background-color: rgba(255, 255, 255, 0.1);
+}

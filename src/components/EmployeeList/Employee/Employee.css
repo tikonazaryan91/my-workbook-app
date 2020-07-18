@@ -1,0 +1,22 @@
+.main-home-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 2px 0;
+}
+
+.main-home-content-user {
+  width: 19%;
+}
+
+.main-contact {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.main-contact span {
+  width: 100%;
+  border: 1px solid #44474b;
+  padding: 10px;
+}
